@@ -1,0 +1,54 @@
+<header class="header">
+    <div class="d-flex justify-content-between header__wrap">
+      <a href="/" class="d-flex justify-content-start logo">
+        <img src="img/svg/ton.svg" alt="TON">
+        <span class="logo__txt">TON Explorer</span>
+      </a>
+      <div class="d-flex justify-content-between header__main" id="js-mob-menu">
+        <div class="header__drop dropdown">
+          <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Main.Ton.Dev
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Item-1</a>
+            <a class="dropdown-item" href="#">Item-2</a>
+            <a class="dropdown-item" href="#">Item-3</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-start header__right">
+          <ul class="nav justify-content-end header-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Blocks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Transactions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Messages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accounts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Validators</a>
+            </li>
+          </ul>
+          <div class="header__drop dropdown">
+            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              En
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Item-1</a>
+              <a class="dropdown-item" href="#">Item-2</a>
+              <a class="dropdown-item" href="#">Item-3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="btn burger" onclick="document.getElementById('js-mob-menu').classList.toggle('open');this.classList.toggle('open');">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+</header>
